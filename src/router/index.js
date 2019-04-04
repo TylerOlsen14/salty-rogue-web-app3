@@ -3,7 +3,7 @@ import Router from 'vue-router';
 import Home from '../components/Home.vue';
 import CallList from '../components/CallList.vue';
 import CallRecord from '../components/CallRecord.vue';
-import Client from '../components/Client.vue';
+// import Client from '../components/Client.vue';
 
 Vue.use(Router);
 
@@ -25,10 +25,10 @@ export default new Router({
             name: 'CallRecord',
             component: CallRecord
         },
-        {
-            path: '/:Client',
-            name: 'Client',
-            component: Client
-        },
+        // {
+        //     path: '/:Client',
+        //     name: 'Client',
+        //     component: Client
+        // },
     ]
 })

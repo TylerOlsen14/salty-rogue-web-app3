@@ -14,6 +14,7 @@ import CallList from './components/CallList.vue'
 
 export default {
   name: 'app',
+  
   components: {
     'Navbar': Navbar,
     'CallRecord': CallRecord,
